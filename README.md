@@ -2,7 +2,7 @@
     <img src="./resources/docs/images/pr-banner-long.png">
 </div>
 
-# INFRASTRUCTURE PLATFORM POSTGRE 18.2
+# INFRASTRUCTURE PLATFORM POSTGRE 18
 
 [![Generic badge](https://img.shields.io/badge/version-1.0-blue.svg)](https://shields.io/)
 [![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](./)
@@ -10,7 +10,7 @@
 
 This Infrastructure Platform repository is designed for back-end projects and provides separate platforms:
 
-- **Core Database Platform:** Linux Alpine version 3.23 + Postgres 18.2
+- **Core Database Platform:** Linux Alpine version 3.23 + Postgres 18
 
 The goal of this repository is to offer developers a consistent framework for local development, mirroring real-world deployment scenarios. In production, the API may be deployed on an AWS EC2 / GCP GCE or instance or distributed across Kubernetes pods, while the database would reside on an AWS RDS instance. thus, network connection between platforms are decoupled.
 
@@ -50,7 +50,7 @@ Repository directories structure overview:
 │
 ├── platform
 │   │
-│   └── pgsql-18.2
+│   └── pgsql-18
 │      ├── Makefile
 │      └── docker
 │          ├── Dockerfile
