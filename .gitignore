@@ -44,20 +44,10 @@ lerna-debug.log*
 /Makefile
 
 # Project Resources
-/resources/docs/apirest/*
-!/resources/docs/apirest/.gitkeep
-/resources/docs/application/*
-!/resources/docs/application/.gitkeep
 /resources/databases/*
 !/resources/databases/.gitkeep
 /resources/automation/remote/*
 !/resources/automation/remote/.gitkeep
-
-# Project
-/apirest/*
-!/apirest/.gitkeep
-/application/*
-!/application/.gitkeep
 
 # Developer vault
 /vault
